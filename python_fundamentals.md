@@ -9,3 +9,32 @@ print("Hello, World!")
 x = 5
 y = 10
 print("The value of x is:", x, "and the value of y is:", y)
+
+# Assigning values to variables
+a = 10
+b = 20.5
+name = "Alice"
+
+# Printing the values
+print("Values Stored in the Variables:")
+print(a)
+print(b)
+print(name)
+
+# Taking input from the user
+name = input("Enter usr name: ")
+print("Hello, " + name + "!")
+
+# Taking numerical input
+age = int(input("Enter usr age: "))
+print("us are", age, "years old.")
+
+# Program to calculate the sum of two numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Calculate sum
+sum = num1 + num2
+
+# Display the result
+print("The sum of", num1, "and", num2, "is", sum)
